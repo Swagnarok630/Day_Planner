@@ -14,7 +14,7 @@ Day Planner deployed [here](https://swagnarok630.github.io/Day_Planner/)
   * These items are saved to local storage
 * When the page is refreshed, the user's inputted items persist in their respective timeblocks
 
-![Insert image of day planner here]()
+![Insert image of day planner here](planner.png)
 
 ## Bonus Features
 
