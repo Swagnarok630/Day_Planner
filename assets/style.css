@@ -58,7 +58,7 @@ textarea {
 }
 
 .save {
-  border-left: 1px solid black;
+  border-left: 1px solid white;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
@@ -68,4 +68,68 @@ textarea {
 .save i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+/* Added styles for dark mode */
+.darkmodebody {
+  background-color: #222127;
+  color: #FDF0D5;
+}
+
+.darkmodehead {
+  background-color: #222127;
+  color: #FDF0D5;
+  border-bottom: 10px solid #FDF0D5;;
+}
+
+.darkmodehour {
+  background-color: #222127;
+  color: #FDF0D5;
+  border-top: 1px dashed #FDF0D5;
+  border-right: 1px solid #FDF0D5
+}
+
+.darkmoderow {
+  border-top: 1px solid #222127;
+}
+
+.darkpast {
+  color: black;
+}
+
+.darkpresent {
+  color: black;
+}
+
+.darkfuture {
+  color: black;
+}
+
+.darksave {
+  border-left: 1px solid #222127;
+  color: black;
+}
+
+/* Stylized buttons */
+#toggle {
+  background-color: rgb(255, 170, 117);
+  border: solid 3px rgb(240, 111, 5);
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#clear {
+  background-color: rgb(220, 167, 255);
+  border: solid 3px rgb(103, 2, 158);
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
 }
