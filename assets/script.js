@@ -94,7 +94,7 @@ clear.addEventListener("click", clean);
 function clean() {
     localStorage.clear();
     var textinput = document.querySelectorAll(".description")
-    for (i = 0; textinput.length; i++) {
-        textinput[i].textContent = "";
+    for (i = 0; i < textinput.length; i++) {
+        textinput[i].value = "";
     }
 }
