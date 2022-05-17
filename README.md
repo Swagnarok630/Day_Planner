@@ -14,14 +14,14 @@ Day Planner deployed [here](https://swagnarok630.github.io/Day_Planner/)
   * These items are saved to local storage
 * When the page is refreshed, the user's inputted items persist in their respective timeblocks
 
-![Insert image of day planner here](planner.png)
+![Image of day planner in action](planner.png)
 
 ## Bonus Features
 
 * A button that toggles a dark/light mode for the planner
-  * ![Insert gif of toggle in action](plannertoggle.gif)
+  * ![Gif of toggle in action](plannertoggle.gif)
 * A button to clear values and input so the user doesn't have to manually override timeblocks
-  * ![Insert gif of clear button in action](plannerclear.gif)
+  * ![Gif of clear button in action](plannerclear.gif)
 
 ## Notes
 While the planner is functioning to the criteria with no major issues, there are a few items that could be addressed in the future
